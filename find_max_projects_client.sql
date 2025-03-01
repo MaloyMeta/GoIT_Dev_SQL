@@ -1,0 +1,6 @@
+SELECT NAME, COUNT(project_worker.PROJECT_ID) AS PROJECT_COUNT 
+FROM worker
+LEFT JOIN project_worker ON worker.ID = project_worker.WORKER_ID
+GROUP BY worker.NAME
+ORDER BY PROJECT_COUNT DESC
+LIMIT 1;

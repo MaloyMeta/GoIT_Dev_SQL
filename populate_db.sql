@@ -14,20 +14,6 @@ VALUES
 INSERT INTO client(NAME)
 VALUES ('Carl'),('Makar'),('Mykola'),('Brad'),('Kratos');
 
-<<<<<<< HEAD
-INSERT INTO project (CLIENT_ID, START_DATE, FINISH_DATE)
-VALUES 
-    (5, '2025-01-03', '2027-02-15'),
-    (2, '2024-06-10', '2024-07-15'), 
-    (3, '2023-09-01', '2026-09-01'), 
-    (3, '2024-02-20', '2025-12-20'), 
-    (1, '2026-05-01', '2027-04-30'), 
-    (4, '2022-11-11', '2025-11-11'), 
-    (1, '2024-08-01', '2026-08-01'), 
-    (5, '2023-01-05', '2028-05-05'), 
-    (3, '2025-10-10', '2026-12-10'), 
-    (4, '2020-03-15', '2028-07-15');
-=======
 INSERT INTO project (CLIENT_ID, NAME, START_DATE, FINISH_DATE)
 VALUES 
     (5,'RPOJECT A', '2025-01-03', '2027-02-15'),
@@ -40,7 +26,6 @@ VALUES
     (5,'RPOJECT H', '2023-01-05', '2028-05-05'), 
     (3,'RPOJECT J', '2025-10-10', '2026-12-10'), 
     (4,'RPOJECT K', '2020-03-15', '2028-07-15');
->>>>>>> master
 
 INSERT INTO project_worker(PROJECT_ID, WORKER_ID)
 VALUES (1,1),(1,2),(1,3),
